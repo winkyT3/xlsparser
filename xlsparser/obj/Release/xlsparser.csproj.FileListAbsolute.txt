@@ -1,0 +1,15 @@
+E:\yifan\tools\xlsparser\xlsparser\bin\Release\xlsparser.exe.config
+E:\yifan\tools\xlsparser\xlsparser\bin\Release\xlsparser.exe
+E:\yifan\tools\xlsparser\xlsparser\bin\Release\xlsparser.pdb
+E:\yifan\tools\xlsparser\xlsparser\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\yifan\tools\xlsparser\xlsparser\bin\Release\NPOI.dll
+E:\yifan\tools\xlsparser\xlsparser\bin\Release\NPOI.OOXML.dll
+E:\yifan\tools\xlsparser\xlsparser\bin\Release\NPOI.OpenXml4Net.dll
+E:\yifan\tools\xlsparser\xlsparser\bin\Release\NPOI.OpenXmlFormats.dll
+E:\yifan\tools\xlsparser\xlsparser\obj\Release\xlsparser.view.BuildWin.resources
+E:\yifan\tools\xlsparser\xlsparser\obj\Release\xlsparser.Properties.Resources.resources
+E:\yifan\tools\xlsparser\xlsparser\obj\Release\xlsparser.csproj.GenerateResource.Cache
+E:\yifan\tools\xlsparser\xlsparser\obj\Release\xlsparser.exe
+E:\yifan\tools\xlsparser\xlsparser\obj\Release\xlsparser.pdb
+E:\yifan\tools\xlsparser\xlsparser\obj\Release\xlsparser.csprojResolveAssemblyReference.cache
+E:\yifan\tools\xlsparser\xlsparser\bin\Release\MySql.Data.dll
