@@ -142,14 +142,27 @@ namespace xlsparser
                 log = "commit by xlsparser";
             }
 
-            // commit lua, xml
-            { 
+            Dictionary<char, List<string>> commit_file_group_paths = new Dictionary<char, List<string>>();
+            foreach (string path in this.svnCommitFilePaths)
+            {
+                List<string> path_groups = null;
+                if (!commit_file_group_paths.TryGetValue(path[0], out path_groups))
+                {
+                    path_groups = new List<string>();
+                    commit_file_group_paths.Add(path[0], path_groups);
+                }
+
+                path_groups.Add(path);
+            }
+
+            foreach (var group_paths in commit_file_group_paths.Values)
+            {
                 string commit_files = string.Empty;
                 int count = 0;
-                foreach (string path in this.svnCommitFilePaths)
+                foreach (string path in group_paths)
                 {
                     ++count;
-                    commit_files = commit_files + path + (count != this.svnCommitFilePaths.Count ? " " : "");
+                    commit_files = commit_files + path + (count != group_paths.Count ? " " : "");
                 }
 
                 if (!string.IsNullOrEmpty(commit_files))
